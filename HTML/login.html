@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
+        sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- My CSS -->
+    <link href="../CSS/login.css" rel="stylesheet">
+
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 img-right sm-hide-img">
+                <img src="../img/ig-phone.gif" alt="GIF" width="390">
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 col-md-c1">
+                <div class="right-col1">
+                    <img class="mx-auto ig-main-img" src="../img/ig-logo.png" alt="Your Company">
+                    <form action="#" name="myform" method="post" class="mt-4" onsubmit="return Validation()">
+                        <input type="email" class="login-input-box" name="email" id="email"
+                            placeholder="Phone number, username, or email">
+                        <div class="span-none">
+                            <span class="error" id="emailError"></span>
+                        </div>
+                        <input type="password" class="login-input-box" name="password" id="password"
+                            placeholder="Password">
+                        <div class="span-none">
+                            <span class="error" id="passwordError"></span>
+                        </div>
+
+                        <button type="submit" class="login-btn">Log in</button>
+                        <p class="or">Or</p>
+                        <a class="login-fb"><i class='bx bxl-facebook-square i-fb-size'></i>Login with Facebook</a>
+                        <a href="#" class="fog">Forget password?</a>
+                    </form>
+                </div>
+                <div class="right-col2">
+                    <p class="p-signup">Don't have an account?<a class="link-signup" href="./signup.html">Signup</a></p>
+                </div>
+                <div class="right-col3">
+                    <p>Get the app.</p>
+                    <div class="getapp-btn">
+                        <img src="../img/google-play.png" class="google-play" alt="google-play">
+                        <img src="../img/microsoft.png" class="microsoft" alt="microsoft">
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-full">
+                <div class="footer-container">
+                    <div class="footer-links">
+                        <a href="#">Meta</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Help</a>
+                        <a href="#">API</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Locations</a>
+                        <a href="#">Instagram Lite</a>
+                        <a href="#">Threads</a>
+                        <a href="#">Contact Uploading & Non-Users</a>
+                        <a href="#">Meta Verified</a>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-language">
+                            <select>
+                                <option value="en">English</option>
+                                <option value="en">हिन्दी</option>
+                                <option value="en">ਪੰਜਾਬੀ</option>
+                                <option value="en">मराठी</option>
+                            </select>
+                        </div>
+                        <div class="footer-copyright">
+                            © 2024 Instagram from Meta
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- My JS -->
+    <script src="../JS/login.js"></script>
+</body>
+
+</html>

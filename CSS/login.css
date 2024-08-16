@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: pink; */
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+.span-none{
+    display: none;
+}
+
+.img-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+/* 1 COLUMN------------------> */
+.right-col1 {
+    width: 370px;
+    text-align: center;
+    margin: 1% 0 2% 0;
+    padding: 4%;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+}
+
+.ig-main-img {
+    width: 60%;
+    margin: 2% 0% 10% 0%;
+}
+
+.right-col1 input {
+    display: flex;
+    align-items: center;
+    padding: 2px 12px 2px 12px;
+    border-radius: 5px;
+    width: 85%;
+    height: 35px;
+    border: 1px solid #d8d8d8;
+    margin-top: 10px;
+    margin-left: 7.5%;
+    font-size: 12px;
+    color: black;
+    background: #fff7f7;
+}
+
+.login-btn {
+    width: 85%;
+    height: 34px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 149, 246);
+    color: white;
+    background: #5aa7ff;
+    font-size: 14px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.or {
+    font-size: 14px;
+    color: #999;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.or::before,
+.or::after {
+    content: '---------------';
+    margin: 0 10px;
+}
+
+.login-fb {
+    font-size: 16px;
+    color: #385185;
+    padding: 10%;
+    font-weight: 600;
+}
+
+.i-fb-size {
+    position: relative;
+    top: 1.5px;
+    right: 2px;
+    width: 6%;
+    font-size: 112%;
+    font-weight: 400;
+}
+
+.fog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0% 2% 0%;
+    width: 100%;
+    font-size: 80%;
+}
+
+
+
+/* 2 COLUMN------------------> */
+.right-col2 {
+    width: 370px;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+}
+
+.p-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: cadetblue; */
+    font-size: 90%;
+    margin: 2% 0 2% 0;
+}
+
+.link-signup {
+    display: flex;
+    padding: 0px 4px;
+    font-weight: 600;
+    font-size: 90%;
+    color: rgb(0, 149, 246);
+    ;
+}
+
+
+
+/* 3 COLUMN------------------> */
+.right-col3 {
+    width: 370px;
+    text-align: center;
+    /* border: 1px solid #e6e6e6; */
+    margin: 2% 0 2% 0;
+    background: #ffffff;
+}
+
+.getapp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.getapp-btn img {
+    width: 120px;
+    margin: 0% 1%;
+    height: 40px;
+}
+
+.right-col3 p {
+    font-size: 14px;
+}
+
+.getapp-btn {
+    margin-top: 1rem;
+}
+
+
+
+/* footer------------------> */
+footer {
+    padding-top: 50px;
+}
+
+.footer-container {
+    margin-top: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    /* background: rgb(135, 135, 213); */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-language {
+    margin: 0% 0.1% 4% 0.1%;
+}
+
+.footer-language select {
+    font-size: 4px;
+    color: #666;
+}
+
+.footer-language select {
+    font-size: 12px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #666;
+    margin: 0% 1% 4% 1%;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////// 0---> */
+@media screen and (min-width: 0px) and (max-width: 420px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* background: red; */
+    }
+
+    .sm-hide-img {
+        display: none;
+    }
+
+
+    /* //////////////////////////////////// */
+
+
+    /* 1 COLUMN------------------> */
+    .right-col1 {
+        width: 100%;
+        text-align: center;
+        /* margin: 1% 0 2% 10%; */
+        /* padding: 5%; */
+        /* border: 1px solid #e6e6e6; */
+        background: #ffffff;
+    }
+
+    .or {
+        font-size: 11px;
+        color: #999;
+        font-weight: 600;
+        margin: 20px;
+    }
+
+    .or::before,
+    .or::after {
+        content: '--------------';
+        margin: 0 10px;
+    }
+
+    .login-fb {
+        font-size: 16px;
+        color: #385185;
+        padding: 10%;
+        font-weight: 600;
+    }
+
+    .i-fb-size {
+        position: relative;
+        top: 1.5px;
+        right: 5px;
+        width: 6%;
+        font-size: 112%;
+        font-weight: 400;
+    }
+
+
+
+    /* 2 COLUMN------------------> */
+    .right-col2 {
+        width: 100%;
+        text-align: center;
+        /* margin: 1% 0 2% 10%; */
+        /* padding: 4%; */
+        /* border: 1px solid #e6e6e6; */
+        background: #ffffff;
+    }
+
+
+    /* 3 COLUMN------------------> */
+    .right-col3 {
+        width: 100%;
+        text-align: center;
+        /* margin: 1% 0 2% 10%; */
+        /* border: 1px solid #e6e6e6; */
+        background: #ffffff;
+    }
+
+    /* //////////////////////////////////// */
+
+}
+
+
+/* ///////////////////////////////////////////////////// 1---> */
+@media screen and (min-width: 420px) and (max-width: 520px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* background: rgb(198, 252, 47); */
+    }
+
+    .sm-hide-img {
+        display: none;
+    }
+
+
+    /* //////////////////////////////////// */
+
+
+    /* 1 COLUMN------------------> */
+    .right-col1 {
+        width: 80%;
+        text-align: center;
+        margin: 1% 0 2% 10%;
+        padding: 5%;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 2 COLUMN------------------> */
+    .right-col2 {
+        width: 80%;
+        text-align: center;
+        margin: 1% 0 2% 10%;
+        padding: 4%;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 3 COLUMN------------------> */
+    .right-col3 {
+        width: 80%;
+        text-align: center;
+        margin: 1% 0 2% 10%;
+        /* border: 1px solid #e6e6e6; */
+        background: #ffffff;
+    }
+
+    /* //////////////////////////////////// */
+
+}
+
+
+/* ////////////////////////////////////////////////////// 2---> */
+@media screen and (min-width: 520px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* background: rgb(110, 162, 241); */
+    }
+
+    .sm-hide-img {
+        display: none;
+    }
+
+
+    /* //////////////////////////////////// */
+
+
+    .col-md-c1 {
+        width: 50%;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+
+    /* 1 COLUMN------------------> */
+    .right-col1 {
+        width: 360px;
+        text-align: center;
+        margin: 1% 0 2% 0;
+        padding: 5%;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 2 COLUMN------------------> */
+    .right-col2 {
+        width: 360px;
+        padding: 4%;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 3 COLUMN------------------> */
+    .right-col3 {
+        width: 360px;
+        text-align: center;
+        /* border: 1px solid #e6e6e6; */
+        margin: 2% 0 2% 0;
+        background: #ffffff;
+    }
+
+
+    /* //////////////////////////////////// */
+
+}
+
+
+/* ///////////////////////////////////////////////////// 3---> */
+@media screen and (min-width: 768px) and (max-width: 994px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* background: yellow; */
+    }
+
+    .sm-hide-img {
+        display: none;
+    }
+
+
+    /* //////////////////////////////////// */
+
+    .col-md-c1 {
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+
+    /* 1 COLUMN------------------> */
+    .right-col1 {
+        width: 350px;
+        text-align: center;
+        margin: 1% 0 2% 0;
+        padding: 5%;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 2 COLUMN------------------> */
+    .right-col2 {
+        width: 350px;
+        padding: 4%;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        background: #ffffff;
+    }
+
+
+    /* 3 COLUMN------------------> */
+    .right-col3 {
+        width: 350px;
+        text-align: center;
+        /* border: 1px solid #e6e6e6; */
+        margin: 2% 0 2% 0;
+        background: #ffffff;
+    }
+
+
+    /* //////////////////////////////////// */
+}

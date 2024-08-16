@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon"
+        sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Icons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- My CSS -->
+    <link href="../CSS/home.css" rel="stylesheet">
+
+    <title>Instagram_Fake</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!------------------------ Side bar Sectoin ------------------------>
+            <div class="col-lg-2 col-md-2 col-sm-2 sidebar">
+                <div>
+                    <div class="main-logo">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
+                            style="filter: invert(100%);" class="icon igsmall-logo-none" alt="">
+                        <img class="ig-slide-img igbig-logo-none" src="../img/lg-side-ig-logo.png" alt="">
+                    </div>
+
+
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/home.png" style="filter: invert(100%);"
+                            class="icon" alt="Home">
+                        <span>Home</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/search.png" style="filter: invert(100%);"
+                            class="icon" alt="Search">
+                        <span>Search</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/compass.png" style="filter: invert(100%);"
+                            class="icon" alt="Explore">
+                        <span>Explore</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/instagram-reel.png"
+                            style="filter: invert(100%);" class="icon" alt="Reels">
+                        <span>Reels</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble.png"
+                            style="filter: invert(100%);" class="icon" alt="Messages">
+                        <span>Messages</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/hearts.png" style="filter: invert(100%);"
+                            class="icon" alt="Notifications">
+                        <span>Notifications</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/add--v1.png" style="filter: invert(100%);"
+                            class="icon" alt="Create">
+                        <span>Create</span>
+                    </a>
+                    <a href="#">
+                        <img src="../img/Jerry.jpg" class="icon profile-icon-img" alt="Profile">
+                        <span>Profile</span>
+                    </a>
+                </div>
+
+                <div class="dropup">
+                    <button class="dropup-btn" onclick="toggleMenu()">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="filter: invert(100%);"
+                            class="icon more-icon" alt="More">
+                        <span class="more-none">More</span>
+                    </button>
+                    <div class="dropup-content" id="dropupMenu">
+                        <a href="#"><i class='bx bxs-cog' style='color:#ffffff'></i>Settings</a>
+                        <a href="#"><i class='bx bx-chart'></i>Your Activity</a>
+                        <a href="#"><i class='bx bx-bookmark' style='color:#ffffff'></i>Saved</a>
+                        <a href="#"><i class='bx bx-moon' style='color:#ffffff'></i>Switch appearance</a>
+                        <a href="#"><i class='bx bx-error-circle' style='color:#ffffff'></i>Report a problem</a>
+                        <a href="#">Switch accounts</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ONLY FOR SMALL SCREEN TOP -->
+            <div class="header Small-only">
+                <div class="logo"><img src="../img/phone-ig-pic.jpeg"></div>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search">
+                </div>
+                <a href="#">
+                    <div class="heart-icon"><span class="icon"><i class='bx bx-heart'></i></span></div>
+                </a>
+            </div>
+            <!-- ---------------------------------------------------------------------------------- -->
+
+            <div class="col-lg-6 col-md-10 col-sm-10 main-fullscreen">
+
+                <div class="story-container-lg story-container-sm mt-4">
+                    <button class="nav-button left" onclick="scrollStories(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="container" id="storyContainer">
+
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://cdn4.sharechat.com/whatsappprofilepic_260c03ca_1650866861152_sc_cmprsd_75.jpg?tenant=sc&referrer=feed-service&f=rsd_75.jpg"
+                                        alt="User 1">
+                                    <span>negimahi8</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://cdn4.sharechat.com/sc_compressed_gm_40_ewem0NTE4ODQ4Njc2NQ.jpg?tenant=sc&referrer=pwa-sharechat-service&f=Njc2NQ.jpg"
+                                        alt="User 3">
+                                    <span>_diksha_jos...</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://i.pinimg.com/474x/66/ff/cb/66ffcb56482c64bdf6b6010687938835.jpg"
+                                        alt="User 4">
+                                    <span>chora_pah...</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFX2VZIICqqouu8ABAt0TeugQxHuRrK-1_qA&s"
+                                        alt="User 5">
+                                    <span>rahulzayn7...</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://lh3.googleusercontent.com/proxy/bVdchiOagj88HPqRBuUzwNf-XndKVSGhDz38QT-hgU08vqD2Beyci3S4_vdcWw9xRi7cW7jvX-6iw5FS-Z4d78LGFzO_MAqRgo--VjTCW2hNR5b3NU7Mys7HsbnNnJ4wEfZKbJB437kjmRoI"
+                                        alt="User 6">
+                                    <span>tis_jiyu_me...</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2ZpQ45Em6hgvvA-tN7fh1pL-WZm2AKacbucXWoA_hJ3LD_rv6AEOKa5qx0M_FTXcGo8&usqp=CAU"
+                                        alt="User 7">
+                                    <span>sachin_rwt07</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wrapper">
+                            <div class="profile_img_wrapper">
+                                <a href="#">
+                                    <img class="profile_img"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLvDG6fajDZrJrS7cPIPMHtgpxLHU02x85A&s"
+                                        alt="User 8">
+                                    <span>uk_vinit</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="nav-button right" onclick="scrollStories(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img class="profile_img"
+                                src="https://e1.pxfuel.com/desktop-wallpaper/341/719/desktop-wallpaper-hypebeast-backgrounds-hypebeast-backgrounds-instagram-profile-xxxtentacion-supreme.jpg">
+                        </div>
+                        <div class="user-time">
+                            <div class="profile-name">adam_foot_1</div>
+                            <div class="time">2d</div>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="../img/contant1.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-interactions">
+                            <span class="icon"><i class='bx bx-heart'></i></span>
+                            <span class="icon"><i class='bx bx-message-rounded'></i></span>
+                            <span class="icon"><i class='bx bxl-telegram'></i></span>
+                            <span class="icon-rgt"><i class='bx bx-bookmark'></i></span>
+                        </div>
+
+                        <div class="post-like">
+                            <span class="username"> 1,185 likes</span>
+                        </div>
+
+                        <div class="post-text">
+                            <span class="username">adam_foot_1</span> @1 ⚽ ... <a href="#">more</a>
+                        </div>
+                        <div class="comments">
+                            <a href="#">View all 152 comments</a>
+                        </div>
+                        <div class="add-comment">
+                            <input type="text" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img
+                                src="https://i.pinimg.com/474x/66/ff/cb/66ffcb56482c64bdf6b6010687938835.jpg"></div>
+                        <div class="user-time">
+                            <div class="profile-name">Devil_01</div>
+                            <div class="time">5d</div>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="../img/contant2.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-interactions">
+                            <span class="icon"><i class='bx bx-heart'></i></span>
+                            <span class="icon"><i class='bx bx-message-rounded'></i></span>
+                            <span class="icon"><i class='bx bxl-telegram'></i></span>
+                            <span class="icon-rgt"><i class='bx bx-bookmark'></i></span>
+                        </div>
+
+                        <div class="post-like">
+                            <span class="username"> 2,649 likes</span>
+                        </div>
+
+                        <div class="post-text">
+                            <span class="username">Devil_01</span> ... <a href="#">more</a>
+                        </div>
+                        <div class="comments">
+                            <a href="#">View all 196 comments</a>
+                        </div>
+                        <div class="add-comment">
+                            <input type="text" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img class="profile_img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2ZpQ45Em6hgvvA-tN7fh1pL-WZm2AKacbucXWoA_hJ3LD_rv6AEOKa5qx0M_FTXcGo8&usqp=CAU">
+                        </div>
+                        <div class="user-time">
+                            <div class="profile-name">sachin_rwt07</div>
+                            <div class="time">2w</div>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="../img/contant3.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-interactions">
+                            <span class="icon"><i class='bx bx-heart'></i></span>
+                            <span class="icon"><i class='bx bx-message-rounded'></i></span>
+                            <span class="icon"><i class='bx bxl-telegram'></i></span>
+                            <span class="icon-rgt"><i class='bx bx-bookmark'></i></span>
+                        </div>
+
+                        <div class="post-like">
+                            <span class="username"> 1,359 likes</span>
+                        </div>
+
+                        <div class="post-text">
+                            <span class="username">sachin_rwt07</span> ... <a href="#">more</a>
+                        </div>
+                        <div class="comments">
+                            <a href="#">View all 372 comments</a>
+                        </div>
+                        <div class="add-comment">
+                            <input type="text" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img class="profile_img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLvDG6fajDZrJrS7cPIPMHtgpxLHU02x85A&s">
+                        </div>
+                        <div class="user-time">
+                            <div class="profile-name">uk_vinit</div>
+                            <div class="time">8w</div>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="../img/contant4.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-interactions">
+                            <span class="icon"><i class='bx bx-heart'></i></span>
+                            <span class="icon"><i class='bx bx-message-rounded'></i></span>
+                            <span class="icon"><i class='bx bxl-telegram'></i></span>
+                            <span class="icon-rgt"><i class='bx bx-bookmark'></i></span>
+                        </div>
+
+                        <div class="post-like">
+                            <span class="username"> 7,349 likes</span>
+                        </div>
+
+                        <div class="post-text">
+                            <span class="username">uk_vinit</span> ... <a href="#">more</a>
+                        </div>
+                        <div class="comments">
+                            <a href="#">View all 215 comments</a>
+                        </div>
+                        <div class="add-comment">
+                            <input type="text" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="profile-pic"><img class="profile_img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFX2VZIICqqouu8ABAt0TeugQxHuRrK-1_qA&s">
+                        </div>
+                        <div class="user-time">
+                            <div class="profile-name">rahulzayn7</div>
+                            <div class="time">5w</div>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="../img/contant5.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-interactions">
+                            <span class="icon"><i class='bx bx-heart'></i></span>
+                            <span class="icon"><i class='bx bx-message-rounded'></i></span>
+                            <span class="icon"><i class='bx bxl-telegram'></i></span>
+                            <span class="icon-rgt"><i class='bx bx-bookmark'></i></span>
+                        </div>
+
+                        <div class="post-like">
+                            <span class="username"> 3,497 likes</span>
+                        </div>
+
+                        <div class="post-text">
+                            <span class="username">rahulzayn76</span> ... <a href="#">more</a>
+                        </div>
+                        <div class="comments">
+                            <a href="#">View all 79 comments</a>
+                        </div>
+                        <div class="add-comment">
+                            <input type="text" placeholder="Add a comment...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------- -->
+            <!-- ONLY FOR SMALL SCREEN BOTTOM -->
+            <div class="bottom-nav Small-only">
+                <a href="#">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/home.png" style="filter: invert(100%);"
+                        class="icon-horziotal" alt="Home">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/compass.png" style="filter: invert(100%);"
+                        class="icon-horziotal" alt="Explore">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/instagram-reel.png"
+                        style="filter: invert(100%);" class="icon-horziotal" alt="Reels">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/add--v1.png" style="filter: invert(100%);"
+                        class="icon-horziotal" alt="Create">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble.png"
+                        style="filter: invert(100%);" class="icon-horziotal" alt="Messages">
+                </a>
+                <a href="#">
+                    <img src="../img/Jerry.jpg" class="icon profile-icon-img" alt="Profile">
+                </a>
+            </div>
+
+            <!------------------------ Suggestion Sectoin ------------------------>
+            <div class="col-lg-4  suggestion-screen">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="profile">
+                            <img src="../img/Jerry.jpg" alt="Profile Picture">
+                            <div class="user-detail">
+                                <strong>jaspreet_karayat</strong><br>
+                                <p>Jaspreet Karayat</p>
+                            </div>
+                            <a href="#" style="margin-left:auto; color:#0095f6;">Switch</a>
+                        </div>
+
+                        <div class="suggestions">
+                            <div class="suggestions-header">
+                                <span>Suggested for you</span>
+                                <a class="see-all" href="#">See All</a>
+                            </div>
+
+                            <div class="suggestion">
+                                <img src="https://wallpapers.com/images/hd/instagram-profile-pictures-5ey9mbt5wegf2xl4.jpg"
+                                    alt="adi.fitness777">
+                                <div class="user-detail">
+                                    <strong>adi.fitness777</strong><br>
+                                    <p>Followed by igaurav77</p>
+                                </div>
+                                <a href="#">Follow</a>
+                            </div>
+                            <div class="suggestion">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgaed05l9SQFWBebT5xndeepYPP-q7YyYGTA&s"
+                                    alt="pahadi__42__">
+                                <div class="user-detail">
+                                    <strong>pahadi__42__</strong><br>
+                                    <p>Followed by neelam_karayat__</p>
+                                </div>
+                                <a href="#">Follow</a>
+                            </div>
+                            <div class="suggestion">
+                                <img src="https://i.pinimg.com/736x/6d/1e/bf/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg"
+                                    alt="_ahira1_">
+                                <div class="user-detail">
+                                    <strong>_ahira1_</strong><br>
+                                    <p>Suggested for you</p>
+                                </div>
+                                <a href="#">Follow</a>
+                            </div>
+                            <div class="suggestion">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRGCg4pLQ1ckWPPMqf4s4eLyiKKMUU9bpjtA&s"
+                                    alt="vinisha14376">
+                                <div class="user-detail">
+                                    <strong>vinisha14376</strong><br>
+                                    <p>New to Instagram</p>
+                                </div>
+                                <a href="#">Follow</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../JS/home.js"></script>
+
+</body>
+
+</html>
