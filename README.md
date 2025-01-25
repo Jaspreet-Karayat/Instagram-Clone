@@ -4,29 +4,27 @@ Welcome to my Web Development Portfolio! This repository showcases my skills and
 
 ## 🌟 Skills
 
-### 1. **HTML**
-- I use HTML to structure web pages with elements like headings, paragraphs, lists, and forms.
+### 1. **React.js**
+- I am learning React.js to build dynamic, single-page applications. React helps me manage the content and UI efficiently, making development faster and more modular.
 
-### 2. **CSS**
-- I style web pages with CSS to make them look attractive. I use colors, fonts, and layouts to design responsive web pages.
+### 2. **Tailwind CSS**
+- I use Tailwind CSS to create custom, responsive designs with utility-first classes, providing flexibility and consistency in styling my applications.
 
-### 3. **JavaScript**
-- I use JavaScript to make web pages interactive, like adding click events or updating content without reloading the page.
+### 3. **Bootstrap**
+- I use Bootstrap to quickly build responsive websites with pre-designed components like buttons, navigation bars, and forms, ensuring a polished UI with minimal effort.
 
-### 4. **Responsive Design (Media Queries)**
-- I use media queries to make sure web pages look good on different devices, like phones, tablets, and computers.
+### 4. **Redux Toolkit**
+- I am learning Redux Toolkit to simplify state management in my React applications, enabling me to handle complex state interactions more predictably and efficiently.
 
-### 5. **Bootstrap**
-- I use Bootstrap to quickly build responsive websites with ready-made components like buttons, navigation bars, and forms.
+### 5. **Node.js**
+- I use Node.js to build server-side applications, creating scalable and efficient backend services for my web projects.
 
-### 6. **React.js**
-- I am learning React.js to build dynamic, single-page applications. React helps me manage the content on the page in a more efficient way.
+### 6. **Express.js**
+- I use Express.js, a minimal and flexible Node.js framework, to design and implement RESTful APIs and server-side logic.
 
-## 📂 Project
+### 7. **MongoDB**
+- I use MongoDB, a NoSQL database, to store and manage data in a flexible, document-oriented format, making it ideal for modern web applications.
 
-###  **Flipkart Clone**
-- **Technologies:** HTML, CSS, JavaScript, Bootstrap, Media Queries, Font Awesome
-- **Description:** This project is a clone of the popular social media platform Instagram, built using modern web development technologies. The aim of this project is to recreate the core UI and features of Instagram, focusing on responsive design, dynamic content, and a polished user interface, featuring a responsive design that adapts to different screen sizes. I used HTML for the structure, CSS and Bootstrap for layout and styling, and JavaScript for adding basic interactivity, Font Awesome was used for icons (search, user, etc.). The project also includes media queries to ensure a smooth experience on both desktop and mobile devices.
 
 ## 📞 Contact Me
 
